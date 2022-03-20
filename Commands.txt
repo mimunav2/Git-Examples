@@ -1,0 +1,38 @@
+Tell about yourself to git
+
+  $ git config --global user.name "YOUR NAME"
+
+  $ git config --global user.email "youremail@domain.com"
+
+Initialize an Empty Git Repository
+
+  $ git init
+
+Checking the status of the files in git
+
+  $ git status
+
+Adding one file to the staging area
+
+  $ git add filename
+
+Removing a file from the staging area
+
+  $ git rm --cached filename
+  $ git rm -f --cached filename
+
+To add all filename
+  
+   $ git add .
+
+Commit
+
+  $ git commit -m "Message for your commit"
+
+Check the commit history
+
+  $ git log
+
+Switch between commits
+
+  $ git checkout commit-id
