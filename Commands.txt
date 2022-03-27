@@ -33,6 +33,22 @@ Check the commit history
 
   $ git log
 
+To make all files in one line
+   
+  $ git log --oneline
+
+To reverse files
+
+  $ git log --reverse
+
+To apply both reverse and one line
+
+  $ git log --oneline --reverse
+
+To check staus with oneline
+ 
+  $ git status --oneline
+
 Switch between commits
 
   $ git checkout commit-id
